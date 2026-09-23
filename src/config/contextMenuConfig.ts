@@ -5,7 +5,7 @@ import { withUserConfig } from "../utils/config-overlay.ts";
 export const contextMenuConfig: ContextMenuConfig = withUserConfig(
 	"contextMenu",
 	{
-		enable: true,
+		enable: false,
 		actions: ["copySelection", "backToTop", "sharePageLink"],
 	},
 );
